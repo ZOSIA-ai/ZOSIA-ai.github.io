@@ -1,46 +1,81 @@
 <!doctype html>
-  <html>
-    <head>
-      <style>
-        nav {
-          padding:200px 0;
-           background-color:;
-           width: 200px;
-           /* vh: viewport height*/
-           height: 50vh;
-           position:fixed;
-           border:solid 20px; 
-           /*position: fixed*/;
-        }
-        
-        body {
-          margin:0;
-        }
+<html>
+  <head>
+    <style>
+    html {
+      scroll-behavior:smooth;
+    }
+    nav {
+      padding: 200px 0;
+      background-color: rgba(255.0,0,0,.5);
+      width: 200px;
+      height: 50vh;
+      position: fixed;
+      text-align:center;
+    }
+    nav li {
+      list-style: none;
+    }
+    nav li a {
+      text-decoration:none;
+    }
+    body {
+      margin:0;
+    }
+    section {
+      border: black solid;
+      padding:10px;
+      height:200px;
     
-        section {
-          border: black solid 50px;
-          padding:50px;
-          margin:50px;
-        }
-    </style>
-   </head>
-   
-   
-   
-   </body>
-     <nav>
-      <ul>
-      <li>About</li>
-      <li>Expirience</li>
-      <li>Education</li>
-      <li>Skills</li>
-      <li>Interests</li>
-      <li>Awards</li>
-      </ul>
-    </nav>
-    <!--<section>Content</section>-->
+    }
     
-    <main>
-      <h1>ZOSIA</h1>
-      <p> a href= "mailto:zofiareed12@gmail.com"
-    </main>
+    nav img {
+      width:150px;
+      border-radius:50%;
+      border:solid aquamarine;
+      border-width:10px;
+    }
+    
+    ul {
+      padding:0;
+    }
+    
+    main{
+      padding-left: 200px;
+    }
+  </style>
+</head>
+
+ <body>
+   <nav>
+     <img src="https://github.com/ZOSIA-ai/ZOSIA-ai.github.io/blob/main/evie-s-w1JE5duY62M-unsplash.jpg?raw=true">
+     <ul>
+       <li><a href="#about">About</a></li>
+       <li><a href="#experiences">Experiences</a></li>
+       <li><a href="#education">Education</a></li>
+       <li><a href="#skills">Skills</a></li>
+       <li><a href="#interests">Interests</a></li>
+       <li><a href="#awards">Awards</a></li>
+    </ul>
+  </nav>
+
+  <!--<section>Content</section>-->
+
+  <main>
+    
+    <section id='about'>
+    <h1>ZOSIA</h1>
+    <p>zofiareed12@gmail.com</p>
+    </section>
+    
+    
+    <section id= 'experiences'>Experience</section>
+    <section id= 'education'>Education</section>
+    <section id= 'skills'>Skills</section>
+    <section id= 'interests'>Interests</section>
+    <section id= 'awards'>Awards</section>
+  </main>
+
+</body>
+</html>
+
